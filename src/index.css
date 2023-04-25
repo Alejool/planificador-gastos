@@ -460,7 +460,7 @@ main {
 
 .modal {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.80);
+ 
     top: 0;
     left: 0;
     right: 0;
@@ -504,6 +504,7 @@ main {
     margin-bottom: 1rem;
 }
 body .modal {
+    background-color: rgba(0, 0, 0, 0.80);
     overflow: hidden;
 }
 

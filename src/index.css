@@ -380,7 +380,6 @@ main {
 .gasto {
     background-color: var(--blanco);
     background-image:url('/img/12.jpg');
-    display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
@@ -388,7 +387,16 @@ main {
     width: 100%;
     padding: 3rem;
     border-left: 10px var(--negro) solid;
+    display: flex;
+    flex-direction: column;
 
+}
+
+@media (min-width: 548px){
+   .gasto {
+    flex-direction: row;
+   
+   }
 }
 
 .gasto-img {
@@ -401,6 +409,7 @@ main {
 }
 
 .cantidad-gasto {
+    margin: 0;
     font-size: 2.4rem;
     color: var(--negro);
     font-weight: 900;

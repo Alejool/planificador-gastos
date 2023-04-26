@@ -281,8 +281,9 @@ header span {
 }
 .form input[type="text"].nuevo-presupuesto, 
 .form input[type="number"].nuevo-presupuesto {
-    font-size: 2.8rem;
+    font-size: 2rem;
     text-align: center;
+
 }
 
 .contenedor-presupuesto svg {
